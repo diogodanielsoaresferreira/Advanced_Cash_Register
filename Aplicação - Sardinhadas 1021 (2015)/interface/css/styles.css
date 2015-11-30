@@ -1,0 +1,167 @@
+﻿/*
+Diogo Daniel Soares Ferreira
+Escuteiros - Praia da Barra, 2015
+Aplicação para gestão de produtos das sardinhadas
+
+
+Interface Web
+*/
+
+
+.navbar-brand {
+   color: #FFFFFF;
+   text-shadow: 1px 1px #1A1A1A;
+}
+
+.navbar-fixed-top {
+   background-color: #337ab7;
+   box-shadow: 0px 0px 10px #999;
+}
+
+.imgsize {
+   display: block;
+   text-align: center;
+   align-content:center; 
+   margin-left: auto;
+   margin-right: auto;
+   height: auto;
+   max-width: 95%;
+}
+
+.footerlike {
+   padding-top: 5px;
+   text-align: center;
+   color: #666;
+}
+
+.showalltable {
+   margin-left: auto;
+   margin-right: auto;
+   height: 100%;
+   width: 100%;
+}
+
+.logoCNE {
+   display: block;
+   height: auto;
+   max-width: 50%;
+   margin-left: 7%;
+   margin-right: auto;
+   padding-top: 5%;
+}
+
+#page-wrapper {
+   border-radius: 0px 0px 10px 10px;
+   box-shadow: 0px 0px 7px #999;
+}
+
+.thumbsimg {
+   position: relative;
+   display: inline-block;
+   height: auto;
+   max-width: 2%;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.panel {
+   padding: 15px;
+   background-color: white;
+   word-wrap: break-word;
+   display: none;
+}
+
+.modal {
+   text-align: center;
+   height: auto;
+   max-width: auto;
+   padding-top: 20px;
+}
+
+.modal-body {
+   text-align: center;
+}
+
+.rightspace {
+   margin-right: 5px;
+}
+
+.Sardine{
+   margin-top: -8px;
+   max-width: 10%;
+}
+
+.top-text {
+   float: right;
+   margin-top: -30px;
+}
+
+.page-header {
+   font-size: 30px;
+   text-align: center;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    vertical-align: middle;
+    width: 50%;
+}
+
+#showallprod td{
+   padding: 5px;
+}
+tr:nth-child(even) {
+   background-color: #eaeee6;
+}
+tr:nth-child(odd) {
+   background-color: #ccd5ff;
+}
+table th {
+    background-color: black;
+    color: white;
+}
+.btn {
+   width: 100%;
+}
+
+input {
+	background-color: transparent;
+	text-align: center;
+}
+button {
+	/* basics */
+	color: #444;
+	background-color: #B5B198;
+	/* rounded corners */
+    -webkit-border-radius: 6px;
+          border-radius: 6px;
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	font-weight: bold;
+
+}
+
+button:hover, button:active, button:focus {
+	background-color: #CBC7AE;
+}
+
+#calculator {
+   margin-left: 30px;
+   margin-right: 30px;
+   border: 5px outset #337AB7;
+   border-radius: 10px;
+   box-shadow: 5px 5px;
+   text-align: center;
+}
+
+#persons {
+   margin-left: 15px;
+}
+
+.box {
+  background-color: #337AB7;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
